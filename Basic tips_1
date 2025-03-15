@@ -1,6 +1,6 @@
 1. To find length of any number:
 =================================
-	(int) Math.log10(num)+1
+	--> (int) Math.log10(num)+1
 
 2. Only perfect square has odd number of factors.
 ==================================================
@@ -9,5 +9,10 @@
 	9 : 1,3,9
 	16 : 1,2,4,8,16
 	25 : 1,5,25
+3. To get super digit of a number:
+===================================
+	--> int res = (num == 0) ? 0 : (num % 9 == 0 ? 9 : num % 9);
+	super digit of a number is: 151 -> 1+5+1 = 7
+	
 
 	
